@@ -120,7 +120,7 @@ while(sy<=ey):
 		u_client.close()
 		page_soup=soup(page_html , "html.parser")
 		conts=page_soup.findAll("div",{"id":"comic-wrap"})
-		imgurl=conts[0].img["src"]	
+		imgurl="http:"+conts[0].img["src"]	
 		monthdate=date[i].contents[0][1:]
 		currentyear=date[i].contents[0][1:5]
 		authorname=date[i].contents[2][4:8]
