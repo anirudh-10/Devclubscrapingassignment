@@ -11,54 +11,54 @@ f1.close()
 startmonth,startyear=l[0].split()
 endmonth,endyear=l[1].split()
 L=l[2].split()
-if (startmonth[0:2]=="jan"):
+if (startmonth[0:3]=="jan"):
 	sm=1
 
-elif(startmonth[0:2]=="feb"):
+elif(startmonth[0:3]=="feb"):
 	sm=2
-elif(startmonth[0:2]=="mar"):
+elif(startmonth[0:3]=="mar"):
 	sm=3	
-elif(startmonth[0:2]=="apr"):
+elif(startmonth[0:3]=="apr"):
 	sm=4
-elif(startmonth[0:2]=="may"):
+elif(startmonth[0:3]=="may"):
 	sm=5
-elif(startmonth[0:2]=="jun"):
+elif(startmonth[0:3]=="jun"):
 	sm=6
-elif(startmonth[0:2]=="jul"):
+elif(startmonth[0:3]=="jul"):
 	sm=7
-elif(startmonth[0:2]=="aug"):
+elif(startmonth[0:3]=="aug"):
 	sm=8
-elif(startmonth[0:2]=="sep"):
+elif(startmonth[0:3]=="sep"):
 	sm=9
-elif(startmonth[0:2]=="oct"):
+elif(startmonth[0:3]=="oct"):
 	sm=10
-elif(startmonth[0:2]=="nov"):
+elif(startmonth[0:3]=="nov"):
 	sm=11
-elif(startmonth[0:2]=="dec"):
+elif(startmonth[0:3]=="dec"):
 	sm=12
-if (endmonth[0:2]=="jan"):
+if (endmonth[0:3]=="jan"):
 	em=1
-elif(endmonth[0:2]=="feb"):
+elif(endmonth[0:3]=="feb"):
 	em=2
-elif(endmonth[0:2]=="mar"):
+elif(endmonth[0:3]=="mar"):
 	em=3	
-elif(endmonth[0:2]=="apr"):
+elif(endmonth[0:3]=="apr"):
 	em=4
-elif(endmonth[0:2]=="may"):
+elif(endmonth[0:3]=="may"):
 	em=5
-elif(endmonth[0:2]=="jun"):
+elif(endmonth[0:3]=="jun"):
 	em=6
-elif(endmonth[0:2]=="jul"):
+elif(endmonth[0:3]=="jul"):
 	em=7
-elif(endmonth[0:2]=="aug"):
+elif(endmonth[0:3]=="aug"):
 	em=8
-elif(endmonth[0:2]=="sep"):
+elif(endmonth[0:3]=="sep"):
 	em=9
-elif(endmonth[0:2]=="oct"):
+elif(endmonth[0:3]=="oct"):
 	em=10
-elif(endmonth[0:2]=="nov"):
+elif(endmonth[0:3]=="nov"):
 	em=11
-elif(endmonth[0:2]=="dec"):
+elif(endmonth[0:3]=="dec"):
 	em=12
 		
 
