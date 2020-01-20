@@ -79,7 +79,7 @@ while(sy<=ey):
 		n=""
 	else:
 		n=str("/")+str(sy)		
-	my_url = 'http://explosm.net/comics/archive' + sy + sm
+	my_url = 'http://explosm.net/comics/archive' + n + m
 	u_client = uReq(my_url)
 	page_html =u_client.read()
 	u_client.close()
@@ -121,9 +121,9 @@ while(sy<=ey):
 		page_soup=soup(page_html , "html.parser")
 		conts=page_soup.findAll("div",{"id":"comic-wrap"})
 		imgurl=conts[0].img["src"]	
-		monthdate=date[i].content[0][1:]
-		currentyear=date[i].content[0][1:5]
-		authorname=date[i].content[2][4:8]
+		monthdate=date[i].contents[0][1:]
+		currentyear=date[i].contents[0][1:5]
+		authorname=date[i].contents[2][4:8]
 		if authorname in L:
 			if(path.exists(currentyear==False)):
 				os.mkdir(currentyear)
