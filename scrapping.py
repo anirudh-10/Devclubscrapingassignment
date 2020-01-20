@@ -6,7 +6,7 @@ import os
 from os import path
 import requests 
 f1=open("input.txt","r")
-l=f.readlines(f1)
+l=f1.readlines()
 f1.close()
 startmonth,startyear=l[0].split()
 endmonth,endyear=l[1].split()
